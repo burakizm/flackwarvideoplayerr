@@ -10,18 +10,18 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-=> Bot Devlopers
-1) @PiroXPower
-2) @ProErrorXD
-3) @unk_937
-4) @AmiFutami
+        f"""<b>merhaba {message.from_user.first_name}!
+=> Bot Kurucusu
+1) @burakizm
+
+
+
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 Support Chat", url="https://t.me/safothebot"
+                        "🎵 destek grubu", url="https://t.me/flackwardev"
                     )
                 ]
             ]
